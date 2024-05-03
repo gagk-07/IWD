@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator - Healthcare Clinic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Healthcare Clinic</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="bmi-calculator.html">BMI Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="bmi-calculator">
+        <h2>BMI Calculator</h2>
+        <form id="bmi-form">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" required>
+            <button type="submit">Calculate BMI</button>
+        </form>
+        <div id="bmi-result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
